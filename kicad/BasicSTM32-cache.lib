@@ -37,29 +37,6 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x04
-#
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -507,6 +484,26 @@ DRAW
 P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 X 1 1 0 0 200 R 50 50 0 0 P
 X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_S4B-PH-KL_LF__SN_
+#
+DEF SamacSys_Parts_S4B-PH-KL_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_S4B-PH-KL_LF__SN_" 650 200 50 H V L CNN
+F2 "S4BPHKLLFSN" 650 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-S4B-PH-KL-LF-SN_C160235.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER R/A 4POS 2MM" 650 -100 50 H I L CNN "Description"
+F5 "4.8" 650 -200 50 H I L CNN "Height"
+F6 "JST Sales America" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "S4B-PH-KL(LF)(SN)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 0 -300 200 R 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

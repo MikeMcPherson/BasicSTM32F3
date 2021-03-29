@@ -715,10 +715,10 @@ Text Notes 10500 5350 0    50   ~ 0
 Text Notes 14000 4950 0    50   ~ 0
 +3V3
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L Connector_Generic:Conn_01x01 J4
 U 1 1 6003A0CF
 P 9850 4050
-F 0 "J3" V 9814 3962 50  0000 R CNN
+F 0 "J4" V 9814 3962 50  0000 R CNN
 F 1 "Conn_01x01" V 9723 3962 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9850 4050 50  0001 C CNN
 F 3 "~" H 9850 4050 50  0001 C CNN
@@ -726,10 +726,10 @@ F 3 "~" H 9850 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L Connector_Generic:Conn_01x01 J6
 U 1 1 6003CB3E
 P 14050 3550
-F 0 "J5" V 14014 3462 50  0000 R CNN
+F 0 "J6" V 14014 3462 50  0000 R CNN
 F 1 "Conn_01x01" V 13923 3462 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 14050 3550 50  0001 C CNN
 F 3 "~" H 14050 3550 50  0001 C CNN
@@ -747,10 +747,10 @@ Connection ~ 9850 4450
 Wire Wire Line
 	9850 4450 10400 4450
 $Comp
-L Connector_Generic:Conn_01x01 J2
+L Connector_Generic:Conn_01x01 J3
 U 1 1 6004421B
 P 2350 4400
-F 0 "J2" V 2314 4312 50  0000 R CNN
+F 0 "J3" V 2314 4312 50  0000 R CNN
 F 1 "Conn_01x01" V 2223 4312 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2350 4400 50  0001 C CNN
 F 3 "~" H 2350 4400 50  0001 C CNN
@@ -763,10 +763,10 @@ Connection ~ 2350 4800
 Wire Wire Line
 	2350 4800 3000 4800
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J5
 U 1 1 60469EEF
 P 10650 4250
-F 0 "J4" V 10614 4062 50  0000 R CNN
+F 0 "J5" V 10614 4062 50  0000 R CNN
 F 1 "Conn_01x02" V 10523 4062 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10650 4250 50  0001 C CNN
 F 3 "~" H 10650 4250 50  0001 C CNN
@@ -774,10 +774,10 @@ F 3 "~" H 10650 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J7
 U 1 1 6047794F
 P 14450 3850
-F 0 "J6" V 14414 3662 50  0000 R CNN
+F 0 "J7" V 14414 3662 50  0000 R CNN
 F 1 "Conn_01x02" V 14323 3662 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14450 3850 50  0001 C CNN
 F 3 "~" H 14450 3850 50  0001 C CNN
@@ -923,10 +923,10 @@ Connection ~ 9550 4450
 Wire Wire Line
 	9550 4450 9600 4450
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J2
 U 1 1 6060DC1D
 P 2000 6150
-F 0 "J?" V 1964 6062 50  0000 R CNN
+F 0 "J2" V 1964 6062 50  0000 R CNN
 F 1 "Conn_01x01" V 1873 6062 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2000 6150 50  0001 C CNN
 F 3 "~" H 2000 6150 50  0001 C CNN

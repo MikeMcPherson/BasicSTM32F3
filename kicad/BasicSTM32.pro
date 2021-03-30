@@ -1,4 +1,4 @@
-update=3/6/2021 7:59:55 PM
+update=3/30/2021 6:31:22 PM
 version=1
 last_client=kicad
 [general]
@@ -77,7 +77,7 @@ Name=GND
 Type=2
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=VCC
+Name=VDD
 Type=2
 Enabled=1
 [pcbnew/Layer.In3.Cu]

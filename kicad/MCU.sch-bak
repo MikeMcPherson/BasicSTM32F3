@@ -700,7 +700,7 @@ U 1 1 60347E43
 P 3750 9400
 F 0 "C15" H 3842 9446 50  0000 L CNN
 F 1 "100n" H 3842 9355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3750 9400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3750 9400 50  0001 C CNN
 F 3 "~" H 3750 9400 50  0001 C CNN
 	1    3750 9400
 	1    0    0    -1  
@@ -711,7 +711,7 @@ U 1 1 60347E4D
 P 4100 9400
 F 0 "C19" H 4192 9446 50  0000 L CNN
 F 1 "1u" H 4192 9355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4100 9400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 9400 50  0001 C CNN
 F 3 "~" H 4100 9400 50  0001 C CNN
 	1    4100 9400
 	1    0    0    -1  
@@ -849,7 +849,6 @@ F 3 "~" H 5750 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5750 2600 5550 2600
-Connection ~ 5550 2600
 Wire Wire Line
 	5550 2600 5550 2500
 Wire Wire Line
@@ -905,17 +904,6 @@ Wire Wire Line
 	9450 3300 9450 3350
 Wire Wire Line
 	6350 7300 6350 7950
-$Comp
-L MCU_ST_STM32F3:STM32F303VETx U1
-U 1 1 6059FAAF
-P 5250 5300
-F 0 "U1" H 5250 5400 50  0000 C CNN
-F 1 "STM32F303VETx" H 5250 5250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 4650 2700 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00118585.pdf" H 5250 5300 50  0001 C CNN
-	1    5250 5300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 600F9706
@@ -1681,4 +1669,23 @@ Wire Wire Line
 	6700 1000 7300 1000
 Wire Wire Line
 	7300 1800 7300 1850
+$Comp
+L SamacSys_Parts:STM32H757BIT6 IC?
+U 1 1 60F919DF
+P 2900 11850
+F 0 "IC?" H 8644 9346 50  0000 L CNN
+F 1 "STM32H757BIT6" H 8644 9255 50  0000 L CNN
+F 2 "QFP50P3000X3000X160-208N" H 8450 12450 50  0001 L CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32h757ai.pdf" H 8450 12350 50  0001 L CNN
+F 4 "MCU 32-bit ARM Cortex M7/M4 RISC 2MB Flash 3.3V 208-Pin LQFP Tray" H 8450 12250 50  0001 L CNN "Description"
+F 5 "1.6" H 8450 12150 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 8450 12050 50  0001 L CNN "Manufacturer_Name"
+F 7 "STM32H757BIT6" H 8450 11950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-STM32H757BIT6" H 8450 11850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32H757BIT6?qs=vLWxofP3U2y44i97M%252BIKWw%3D%3D" H 8450 11750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "STM32H757BIT6" H 8450 11650 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/stm32h757bit6/stmicroelectronics?region=nac" H 8450 11550 50  0001 L CNN "Arrow Price/Stock"
+	1    2900 11850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

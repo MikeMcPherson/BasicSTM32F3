@@ -4,11 +4,11 @@ EELAYER END
 $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 2 3
-Title "BasicSTM32"
-Date "2021-03-11"
-Rev "0.9.1"
+Title "BasicSTM32H757BI"
+Date "2021-09-09"
+Rev "0.9.0"
 Comp "Goozbazi LLC"
-Comment1 "Basic STM32F3 board for testing and development"
+Comment1 "Basic STM32H7 board template"
 Comment2 ""
 Comment3 ""
 Comment4 ""
